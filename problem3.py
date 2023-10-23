@@ -13,3 +13,14 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+z = 0
+y = 0
+x = 1
+print("1")
+while x < 100:
+    z = x
+    x = x + y
+    y = z
+    print(x)
+    
+    
